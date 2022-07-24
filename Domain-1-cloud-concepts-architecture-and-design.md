@@ -159,3 +159,58 @@ Which service model provides the greatest control as well as responsibility for 
 - Infrastructure as a Service (IaaS) Correct
 - Software as a Service (SaaS)
 - Platform as a Service (PaaS)
+
+---
+
+## Infrastructure as a Service (IaaS)
+
+Customers can have any OS they want.
+
+The hosting provider maintains:
+
+- APIs
+- Core Connectivity & Delivery
+- Abstraction
+- Hardware
+- Facilities
+
+and it's responsible for:
+
+- Hardware
+- Blades
+- Facilities, Utilities, Connectivity, Physical security
+
+Customers can use their backups to restore the production environments fairly quickly
+
+**Drawbacks of IaaS**
+
+- customer doesn't get insight how well the hardware is maintained
+- what underlying hardware the OS is running on
+
+The customer is responsible for maintaining those OSs and patching software
+
+**Major benefits of IaaS**
+
+- is in terms of **Business Continuity**
+- the flexibility of choosing OS installed
+
+## Reflections
+
+### What are the reasons that a company might choose IaaS?
+
+- the company is developing an application on top of an OS that isn't typical or may be unique
+- they have to develop the environments themselves
+
+### What is the dividing line for responsibility in IaaS?
+
+Providers are responsible for maintaining the psychical security, hardware and APIs tha customers utilize to access cloud services
+
+Customers are responsible for maintaining the OS that they deploy and any data
+
+### What are advantages and disadvantages of IaaS?
+
+Advantages: fairly low cost of business continuity services, increased flexibility in terms of OS
+
+Disadvantages: lose control of the actual hardware that the service is running from (however someone else is maintaining that, reducing the cost of maintaining the psychical data center, psychical security and utilities)
+
+---
