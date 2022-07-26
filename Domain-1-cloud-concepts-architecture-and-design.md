@@ -214,3 +214,106 @@ Advantages: fairly low cost of business continuity services, increased flexibili
 Disadvantages: lose control of the actual hardware that the service is running from (however someone else is maintaining that, reducing the cost of maintaining the psychical data center, psychical security and utilities)
 
 ---
+
+> A threat is anything that can cause damage or disrruption to the cloud based system
+
+> A vulnerability is a weakness that could be exploited by a threat
+
+> A risk is a probability that a threat will exploit a vulnerability
+
+## IaaS Specific Risks
+
+### Personnel threats
+
+- Background checks
+- Segregation of duties
+
+### External threats
+
+- Malware
+- Dos / DDoS
+- Man-in-the-middle
+- Geographic location
+
+### Lack of specific skill set
+
+- Security over the environments in the cloud
+- Operational security practices
+
+**Quiz Question**
+
+What is the most significant risk that a customer can evaluate and control in IaaS?
+
+- Personnel threats
+- External threats
+- Lack of a cloud specific skill set, Correct
+
+## PaaS risks
+
+It's not all easily deployable, development environments and scalable databases
+
+**PaaS risks**
+
+- Interoperability
+  - The cloud provider is responsible for updating the OS. Unless there is effective communication between provider and customer, updates can break applications or may not function properly
+- Backdoors
+  - Since most PaaS are used for development, introducing a backdoor during development is a significant risk. If left unchecked they can go to production environments too.
+- Resource sharing
+  - Information breach, side channel attacks
+- Virtualization
+  - introduces various risk when used in PaaS
+
+**Quiz Question**
+
+What security risk may be accidentally introduced during development ?
+
+- Side channel-attacks
+- Information bleed
+- Backdoors, Correct
+
+Backdoors can be introduced during the testing process and with ineffective management they can potentially left in.
+
+## Software as a Service (SaaS)
+
+Components of SaaS
+
+- Applications
+- Email
+- Customer Relationship Management (CRM)
+
+Customer is only responsible for the data that you put in the app
+
+### Reflection
+
+### What are some SaaS applications that you use every day?
+
+Fitness app that charges monthly or free that sales your data
+
+### What is the dividing line for responsibility in SaaS?
+
+The provider is responsible for maintaining the application. The customer only puts in the data.
+
+### What are the advantages and disadvantages of SaaS?
+
+SaaS applications help businesses focus on what they do best. You give up a lot of the control when you put the data in that SaaS application.
+
+## Software as a Service (SaaS) risks
+
+- Proprietary data formats
+  - Vendor lock-in
+    - ability to switch vendor once you 've started
+  - Data portability
+    - ability to easily remove information and switch apps
+- Web application security
+  - Browser
+    - Web based browsers exposes many potential threats like stealing user credentials or potentially even injecting code into the platform.
+  - API
+    - security misconfigurations, data exposure
+- Virtualization
+  - risks of information bleed, side-channel attacks. Changes on the hardware cache can provide hints to privilege information
+
+**Quiz Question**
+
+- Yearly cost increases
+- Proprietary data formats, Correct
+- The update schedule
