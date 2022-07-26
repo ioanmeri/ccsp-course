@@ -221,6 +221,8 @@ Disadvantages: lose control of the actual hardware that the service is running f
 
 > A risk is a probability that a threat will exploit a vulnerability
 
+---
+
 ## IaaS Specific Risks
 
 ### Personnel threats
@@ -248,6 +250,8 @@ What is the most significant risk that a customer can evaluate and control in Ia
 - External threats
 - Lack of a cloud specific skill set, Correct
 
+---
+
 ## PaaS risks
 
 It's not all easily deployable, development environments and scalable databases
@@ -273,6 +277,8 @@ What security risk may be accidentally introduced during development ?
 
 Backdoors can be introduced during the testing process and with ineffective management they can potentially left in.
 
+---
+
 ## Software as a Service (SaaS)
 
 Components of SaaS
@@ -297,6 +303,8 @@ The provider is responsible for maintaining the application. The customer only p
 
 SaaS applications help businesses focus on what they do best. You give up a lot of the control when you put the data in that SaaS application.
 
+---
+
 ## Software as a Service (SaaS) risks
 
 - Proprietary data formats
@@ -317,3 +325,125 @@ SaaS applications help businesses focus on what they do best. You give up a lot 
 - Yearly cost increases
 - Proprietary data formats, Correct
 - The update schedule
+
+---
+
+## Virtualization threats
+
+Virtualization is the ability to provision and create virtual environments that individual customers and their applications run.
+
+That is done through using on what is called hypervisors
+
+- Hypervisors
+  - Type I
+    - Runs directly on system hardware, bare metal (e.g. Windows hyper-v, Linux KVM kernel virtual machine)
+    - the attacker is limited to the hypervisor and the machine, because all individual machines are beneath the hypervisor, being provisioned by the hypervisor
+  - Type II
+    - Virtual machines are running on top of a host OS (e.g. VMware, VirtualBox). In this instance, the primary OS has more power than those individual guests OS
+    - have a larger attack surface, more vulnerable, attacker can attack the hypervisor itself, the underlying OS and the machine
+- Guest escape
+  - when a user is about to leave their VM and interact with either the hypervisor or with other VMs.
+  - User can potentially edit, view, copy the data of another VM. (PaaS, SaaS a customer can gain access to another customers data)
+  - rare because they rely on failure of other controls
+- Host escape
+  - the user can leave the host machine and access devices on the network
+  - that would reflect failure to multiple controls
+- Information bleed
+  - when an application fails, it may reveal little information about what that application actually is.
+  - A user can find out what actually is running on the VM without having access to it
+
+**Quiz Question**
+What type of hypervisor would you choose to minimize the attack surface?
+
+- Type III
+- Type II
+- Type I, correct
+
+---
+
+## Cloud Deployment Models
+
+- Public cloud
+  - Any business or individual that wants to purchase hosting services on the public cloud is able to to so.
+  - The main benefit is that is cheap, as it utilizes shared resources, it is the most cost effective.
+  - But you can lose in terms of control (e.g. multi tenancy, data segregation, maintaining security)
+- Private cloud
+  - reserved for one organization
+  - the hardware may belong to the organization
+  - greatest amount of control
+  - most expensive
+- Hybrid cloud
+  - Mix of any of the 3 models used together
+  - Linking applications in a ways that enables data sharing
+  - an organization may host production in on-premise data center but leverage the cloud for backup solutions
+- Community
+  - the cloud architecture is shared by several organizations (e.g. research institutions or government)
+  - on premise or off premise in terms of it's administration, de-centralized
+
+**Quiz Question**
+
+An organization hosts its production environments on-premise but leverage a dedicated cloud deployment for it's backup and disaster recovery need. What cloud deployment model is this?
+
+- Private cloud
+- Public cloud
+- Hybrid cloud, Correct
+
+---
+
+## Public Cloud
+
+The benefit is that there is **little cost because it's a multi tenant environment**, meaning multiple customers are running their applications that are running on the same underlying hardware
+
+- Publicly shared
+
+  - Multitenant environment
+  - Lower cost, easily available
+
+- Data protection
+
+  - Best for data with lower sensitivity
+
+- Common pubilc clouds
+  - AWS, Microsoft Azure, Google Cloud, Oracle Cloud, Salesforce, IBM Cloud, Dropbox, AppleCloud
+
+### What are the reasons that a company might use a Public Cloud deployment model?
+
+They really want an affordable, easily accessible option to do storage or apps that aren't processing highly sensitive information
+
+### What are the reasons a company would want to avoid using a Public Cloud?
+
+It's public! Should encrypt information, cloud platforms and are natively more risky as may be accessed by unauthorized parties
+
+### What are some Public Cloud that you use at work or in your personal life?
+
+Google cloud
+
+## Public Cloud Deployment Risks
+
+- Vendor lock-in
+
+  - That can be addressed by looking an any contract or fine print before using a public cloud, to ensure how easily data can be imported from the public cloud to another vendor
+
+- Vendor lock-out
+
+  - vendors may not have adequate capital to maintain their cloud, and if they go out of business you are locked out, unable to access your data, hardware not connected to the internet
+
+- multi tenant environment
+  - Data separation
+    - data from multiple customers are saved on the same hardware, misconfigurations or potential vulnerabilities may compromise the potential records
+  - Virtualization
+    - up to provider to ensure that VMs are protected and hypervisor is well maintained
+  - Availability
+    - the cloud becomes a target for threat actors with Dos or DDos
+  - Encryption
+    - encryption keys be compromised
+
+**Quiz Question**
+
+What does multitenancy mean in cloud computing?
+
+- Multiple customers' data can be stored, processed, or archived on the cloud providers hardware, Correct
+
+- Different data types can occupy the same cloud server
+
+- More than one cloud provider can operate out of the same data center
