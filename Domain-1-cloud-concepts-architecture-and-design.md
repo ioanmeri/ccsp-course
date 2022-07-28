@@ -447,3 +447,74 @@ What does multitenancy mean in cloud computing?
 - Different data types can occupy the same cloud server
 
 - More than one cloud provider can operate out of the same data center
+
+---
+
+## Vendor Lock-in
+
+primary risk factors:
+
+should consider before putting data in the cloud about creating a dependency, effective risk management, business continuity scenarios.
+
+- Lack of portability
+
+- Proprietary data formats
+
+- Physical / technical limitations of moving
+  - what if there are petabytes of data, AWS has Snowball
+
+**Quiz Question**
+
+A medical imaging software company is dissatisfied with the service level at its current hosting provider. The company would like to move but the volume of imaging data stored at their current provider would take months to move given the current providers capabilities. This is an example of which vendor lock-in risk?
+
+- Proprietary data format
+
+- Regulatory constrains
+
+- Physical/technical moving limitations, Correct
+
+---
+
+## Vendor Lock-out
+
+primary risk factors:
+
+diligence on venture, their compliance obligations and financial health
+
+- Provide longevity
+
+  - provider is not that mature, or can't maintain their data center and go out of business
+
+- Legislative environment
+  - vendors need to meet their compliance, they be fined or shut downed temporarily, vary
+
+## How should your cloud vendor review processes address the risk of vendor lock-out?
+
+## If you were responsible for mitigating the risk of vendor-lock out, how would you do it?
+
+---
+
+## Multitenant Environment Risks
+
+- in a single tenant environment, every single customer has their own instance of the application and their own corresponding database
+
+- in a multi tenant environment multiple customers data is processed **in the same application**. Different customers data can be stored on the same hardware.
+
+primary risk factors:
+
+- Conflict of interest
+  - unlike dedicated, the cloud provider is focus on maintaining the environments for all customers, less concern for individuals
+- Escalation of privilege
+  - when ones customers data is breached, the attacker may escalate their privilege level on the application and recover other piece of data
+- Information bleed
+  - Failures or malfunctions in an application or database can revile information on application's OS and attackers can use tailored vulnerabilities
+- Legal activity
+  - when data is on the same server, illegal actions can potentially prevent people from accessing any of the data on that server
+
+**Quiz Question**
+
+An online retailer's website is not working. The IT department discovers that the company can no longer access critical data stored in the cloud. The company soon learns that the data of one of the cloud customers on that hardware was involved in a criminal investigation and the server has been isolated. This is an example of which multitenancy risks?
+
+- Conflict of interest
+- Legal activity, Correct
+- Information bleed
