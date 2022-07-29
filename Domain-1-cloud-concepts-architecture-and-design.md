@@ -518,3 +518,28 @@ An online retailer's website is not working. The IT department discovers that th
 - Conflict of interest
 - Legal activity, Correct
 - Information bleed
+
+---
+
+## Private Cloud deployment
+
+most control and protection, higher cost
+
+common characteristics:
+
+- Dedicated hardware and other infrastructure
+
+- Physical data isolation
+
+- Premium price
+
+- Really appropriate for highly sensitive data
+  - PII, health data
+
+**Quiz Question**
+
+A company pays a cloud provider to maintain the company's hardware in the cloud provider's data center. What type of cloud model is this?
+
+- Private Cloud, Correct
+- Public Cloud
+- Platform as a Service (PaaS)
