@@ -543,3 +543,101 @@ A company pays a cloud provider to maintain the company's hardware in the cloud 
 - Private Cloud, Correct
 - Public Cloud
 - Platform as a Service (PaaS)
+
+---
+
+## Private Cloud deployment risks
+
+there still are some risks
+
+most relevant risks to private cloud environments
+
+- Personnel threats
+
+  - cloud employees could introduce misconfigurations or security vulnerabilities, malicious code and backdoors
+  - cloud provider should do background checks, financial checks on individuals with access to sensitive information
+
+- External threats
+
+  - Dos or DDos, malwares
+  - should monitor and have appropriate logging and incident response, as well as patching and configuration of the private cloud
+
+- Regulatory non-compliance
+
+  - particularly important to the private cloud, no multi tenant risks but there might be more obligations to protect that data
+  - should have appropriate control mapping, should understand the roles and regulations
+
+- Natural disasters
+  - true of any cloud based
+  - should have appropriate backup solutions, redundant utilities
+
+**Module reflection**
+
+### How do the risks of a private cloud deployment compare to the public cloud?
+
+Many of these are the same (e.g. Personnel threats, external attacks)
+
+The main difference is the **attack surface**. In public there is greater attack surface because you are relying to virtualization.
+
+### Could private cloud deployments create a false sense of security?
+
+Any organization should be taking security very seriously.
+It's important to do diligence on your vendor to prevent some of the internal threats. Make sure that have adequate controls in place to mitigate those risks associated with natural disasters.
+
+---
+
+## Community cloud environments
+
+In the community cloud, one affiliated group of organizations is sharing cloud infrastructure. In most cases, the infrastructure is owned and administered by the affiliated group.
+
+common characteristics:
+
+- Dispersed administration
+
+  - each group it is maintaining it's piece of infra or application and other members of this group get to utilize those resources
+  - e.g. research organizations that coordinate and share data or apps
+
+- Security and compliance
+
+  - there can be standardization across the community cloud because the organizations share the same mission, which results in higher level of control and compliance in the cloud
+
+- Shared cost
+  - the cost is lower because all the organization are sharing the cost and resources
+
+**Quiz Question**
+
+Which of the follow is the most significant difference between community and public cloud deployments?
+
+- Shared cost
+- Shared services
+- Organizational affiliation, correct
+
+The common denominator among how community clouds work. There is a shared mission or connection among organizations that participate in the community cloud.
+
+---
+
+## Community Cloud Deployment Risks
+
+Most relevant risks to community cloud environments
+
+- Decentralized administration
+  - Improved resiliency but increased attack surface
+  - Performance monitoring
+    - because it's decentralized, the performance monitoring becomes difficult and can make it difficult to address security incidents
+  - Security monitoring
+- Access control
+  - there isn't a centralized policy to access control
+- Configuration management
+  - no centralized way of setting the tone of how configuration should be done across the cloud
+
+Improved resiliency: if one node goes down, it doesn't bring the whole cloud down for it's members
+
+**Quiz Question**
+
+Which of the following risks is most central to Community Cloud deployments?
+
+- Free-riding on the shared cost of infrastructure
+
+- Resiliency
+
+- Decentralized administration
