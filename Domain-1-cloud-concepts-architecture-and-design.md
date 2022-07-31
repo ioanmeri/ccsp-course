@@ -789,3 +789,69 @@ The cloud provider has the greatest control and responsibility over which contro
 - Physical, Correct
 
 ---
+
+## Cloud security frameworks and standards
+
+- ISO 27000 (27017 Cloud standards)
+  - they reflect the EU regulations, required in some countries, costly but international
+- fedRAMP
+  - US standards, US governments need it to participate in the cloud services, very expensive
+- Cloud Security Alliance (STAR)
+  - Security Trust Assurance at Risk, freely available, when you undergone a third party assessment you can publicly register it
+
+**Quiz Question**
+
+Which framework would be best for a multinational corporation operating cloud environment in different geographic regions
+
+- ISO 27000 (27017 Cloud standards), Correct
+- Cloud Security Alliance (STAR)
+- FedRAMP
+
+---
+
+## Cost benefit analysis
+
+benefits of cloud computing
+
+- Personnel costs
+  - on-prem you will need people to maintain the hardware, configure the networks, monitor, make sure applications are secure, utilities are properly setup, effective redundancy
+  - the cloud provider takes on many of those costs associated with employees
+- Operational costs
+  - cost that come with maintaining the hardware
+- Regulatory cost Transfer
+  - the cost that comes with making sure you have certain controls in place are transferred to the cloud provider
+- Capital Expenditure
+  - you don't need to purchase all this hardware
+
+---
+
+## Developing business requirements
+
+- Functional requirements
+
+  - Devices
+    - might be identified by working with cloud architect to figure out the diagram of the application
+  - Processes
+    - working with stakeholders to identify what is the business trying to achieve, how the processes that make that happen currently work, what are the inputs and outputs or product
+  - Employees
+    - what are the employees roles and responsibilities in the overall project, do we have the employees we need
+
+- Nonfuctional requirements
+
+  - expected behavior
+    - base line levels of logging, monitoring, performance
+
+- Security requirements
+  - we should be thinking of security as an aspect of product quality that should be included as early as possible
+
+You have to keep in mind: what is the business trying to achieve and what is the level of security really appropriate given the value and the business case
+
+**Module reflection**
+
+## How are business requirements determined in your organization?
+
+## How does understanding business requirements improve security?
+
+---
+
+## Business impact analysis
