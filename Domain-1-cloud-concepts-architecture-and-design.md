@@ -640,4 +640,152 @@ Which of the following risks is most central to Community Cloud deployments?
 
 - Resiliency
 
-- Decentralized administration
+- Decentralized administration, correct
+
+---
+
+## Cloud security process
+
+high level steps:
+
+- Identify Requirements
+
+  - this is all about the why, security is all about managing risk and reducing to levels that are acceptable within the organizations risk tolerance
+  - how is your business really leveraging the cloud (service, deployment models to expand what they do)
+  - what are the inherent risks on what they try to do on the cloud (how will the backups work, how processing activity is going to be monitored, who needs access to this)
+
+- Select Provider, Service, and Deployment Models
+
+  - investigating which vendor meets our needs
+
+- Define Architecture
+
+  - building a picture of all the servers and applications
+  - assets that need protection
+  - how they communicate to each other and how the communication is protected
+  - storage
+  - who is managing what
+
+- Assess Security Controls
+
+  - what regulations are applicable to our industry that need to be implemented
+
+- Identify Control Gaps
+
+  - what controls are in place on the on-prem solution and what we need to do in the cloud
+
+- Design and Implement Controls
+
+  - adapt any controls to the cloud to ensure that they meet your organizations business objectives, risk objectives and then any security control requirements based on a framework that you chosen to mitigate risk or legal requirements
+
+- Manage Changes
+  - the dynamic aspect of the cloud must me managed as well
+
+**Quiz Question**
+
+- Identify requirements, Correct
+
+- Define architecture
+
+- Designing and implementing controls
+
+---
+
+## Security responsibility by service model
+
+| Responsibility                       | On-Prem | IaaS | PaaS | SaaS |
+| ------------------------------------ | ------- | ---- | ---- | ---- |
+| Data classification & accountability | Y       | Y    | Y    | Y    |
+| Client & end-point protection        | Y       | Y    | Y    | S    |
+| Identity & access management         | Y       | Y    | S    | S    |
+| Application level controls           | Y       | Y    | S    | N    |
+| Network controls                     | Y       | S    | N    | N    |
+| Host infrastructure                  | Y       | S    | N    | N    |
+| Physical security                    | Y       | N    | N    | N    |
+
+Y: Cloud Customer
+
+N: Cloud Provider
+
+S: Shared between Cloud Customer and Provider
+
+### Common customer's responsibility is data classification & accountability
+
+identifying what is the value of the data, what protections does it require, where is it, how do you ensure that you effectively label data to ensure that data of a certain sensitivity level is protected
+
+### Client & end-point protection
+
+ensuring that all the devices that are going to connect wirelessly to your cloud environment are appropriated monitored for security threats and vulnerabilities. Have antivirus software etc. and are able to connect in a secure manner
+
+### Identity & access management
+
+ensuring that you know everybody that is accessing the cloud environment, who they are, their rights and truly authenticate who they are before granting access to the cloud environment. In addition to setting up technical controls that enforce identify access management, there have to be good governance of policies on the insight of the environment to ensure segregation of duties.
+People don't write checks themselves, classic example. Ensure least privilege.
+
+### Application level controls
+
+ensuring that there is a secure development lifecycle, that vulnerabilities in the application are always being tested, patched and monitored
+
+### Network controls
+
+the provider has effective controls to monitor performance and security threats on their network or per segmentation to ensure that customer's data doesn't get commingled (become commonly accessible when they are supposed to remain separated) or customers are able to escalate privilege to get access to other customer's data, a lot of these controls are enforced by the network layer
+
+### Host infrastructure
+
+ensuring that there is proper security over individuals servers and hardware that's running on the host infrastructure
+
+### Physical security
+
+The advantage is that you don't have to worry about the utilities and guns and gates to keep people out of the data centre
+
+There are all the security considerations and how they exist on this gradient of shared responsibility between the cloud customer and cloud provider
+
+**Quiz Question**
+
+Which cloud service model comes with the greatest security responsibility for the customer ?
+
+- SaaS
+- PaaS
+- IaaS, Correct
+
+---
+
+## Defense in depth
+
+- Management
+
+  - such as policies, how do you categorize data, what are the policies around encryption standards you implement, how is data managed, policies for retention and secure destruction, proper documentation
+
+- Technical
+
+  - actual devices or software or alerts that are implemented on a system to provide control depth
+
+- Physical
+  - fencing, lights, full-time security, camera monitoring of the facility
+
+layer controls are really the ideal way to keep your organization safe.
+
+### Control types
+
+- Preventative
+  - reduce possibility of a risk going to occur
+- Detective
+  - detects and identifies violations or incidents that occurring, such as having an intrusion detection system
+- Corrective
+  - any control that's really used to remediate or fix a risk, such as failover to another location
+- Deterrent
+  - discourages violations, lights or signs
+- Recovery
+  - system recovery or information
+- Compensating
+  - e.g. another means of capturing meta information
+
+**Quiz Question**
+
+The cloud provider has the greatest control and responsibility over which control type?
+
+- Management
+- Technical
+- Physical, Correct
+
+---
