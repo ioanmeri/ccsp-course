@@ -848,10 +848,96 @@ You have to keep in mind: what is the business trying to achieve and what is the
 
 **Module reflection**
 
-## How are business requirements determined in your organization?
+### How are business requirements determined in your organization?
 
-## How does understanding business requirements improve security?
+### How does understanding business requirements improve security?
 
 ---
 
 ## Business impact analysis
+
+a cornerstone process for establishing effective security in the cloud
+
+to justify going to the cloud is doing cost benefit analysis and ensure that benefits really make sense
+
+business impact analysis ensures that security is well set up to properly defend the assets that are being deployed in the cloud
+
+**Business Impact Analysis Process**
+
+- Establish existing state
+
+  - asset inventory
+    - gather all network diagrams or artifacts that describe the processes that are involved in the existing state of the organization, applications, databases, servers, load balancers
+  - interviews
+    - interview people that maintain critical parts in the existing state, collect network traffic
+  - regulations
+    - laws you have to adhere
+
+- Determine criticality
+
+  - what assets are most essential, the crown jewels of the organization which are the elements which deserves the most protection
+
+- Establish risk appetite
+  - avoid
+    - we are not going to pursue that
+  - accept
+  - transfer
+    - companies now have cyber security breach insurance
+  - mitigate
+    - controls decrease the likelihood of the risk or the potential impact of the risk to an acceptable threshold
+
+**Module reflection**
+
+### Does your organization have an asset inventory?
+
+### What is the most critical asset in your organization ?
+
+### How are risks identified, evaluated, and monitored ?
+
+---
+
+## Developing security requirements
+
+### Business requirements
+
+business requirements will help you determine how the CIA framework will be enforced and maintained
+
+### Business impact analysis
+
+then we leverage the business impact analysis to identify what are the most critical assets and how to prioritize security efforts and requirements
+
+### Frameworks
+
+Many organizations have figured out the high level control areas that really deserve our focus such as encryption, access, data classification, labeling, redundancy, backups. These areas are a little different compared to On-Prem
+
+### Regulations
+
+What unique controls apply to you and the business case
+
+**Module reflection**
+
+### How does your organization identify security requirements?
+
+### How could the different security responsibilities we have discussed be used to proactively identify security requirements?
+
+Different shared responsibilities can help us create a shortcut for identifying the most important security requirements for the organization
+
+---
+
+## Domain 1 Summary
+
+**Module reflection**
+
+### What is the cloud computing and its benefits?
+
+### What are the three service models?
+
+### What are the four deployment models?
+
+### What is the shared responsibility model and why is it important?
+
+### How do you demonstrate the business value of the cloud?
+
+### How do you identify and meet your organization's security responsibilities in the cloud?
+
+---
