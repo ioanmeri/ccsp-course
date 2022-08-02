@@ -77,3 +77,76 @@ A system administrator wants to change the classification of a data table becaus
 - The data owner should decide the label but the data custodian should implement the appropriate protections and storage, Correct
 
 ---
+
+## Cloud Data Lifecycle
+
+- Create
+  - ensure data is classified
+- Store
+  - Data At Rest, needs to be encrypted to ensure that is properly protected
+- Use
+  - Data In Use
+- Share
+  - Outside the organization, or inside the cloud between application
+- Archive
+  - Having an effective retention policy
+- Destroy
+  - Should be destroyed securely
+
+When data is created, if it's outside the cloud and needs to be transmitted to the cloud. Data is in the state of Data In Transit.
+
+**Quiz Question**
+
+- Create, use, store, share, archive, destroy
+
+- Create, store, share, use, archive, destroy
+
+- Create, store, use, share, archive, destroy, Correct
+
+---
+
+## Data discovery
+
+- Label-based
+
+- Metadata-based
+
+- Content-based
+  - data labeling software
+
+**Module reflection**
+
+- How does your organization identify and label data?
+
+- How can we leverage the increasing importance of data analytics to improve data security?
+
+---
+
+## Cloud data security strategies
+
+- Encryption
+
+  - ensure confidentiality and integrity of data
+
+- Masking
+
+  - render data in a state that people can't infer completely what the sensitive information is
+
+- Security information and event management (SIEM)
+
+  - monitor events that are happening regarding data in the Cloud Based environment.
+
+- Egress monitoring
+  - while exiting or leaving, data loss prevention, digital rights management
+
+**Quiz Question**
+
+Obscuring the digits of a credit card number is an example of which data security strategy?
+
+- Encryption
+
+- Egress monitoring
+
+- Masking, Correct
+
+---
