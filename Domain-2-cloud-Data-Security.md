@@ -463,3 +463,116 @@ Auditing ensures that controls that are in place are working effectively
 - What is your relationship like with the auditing/compliance function at your organization?
 
 - Is auditing being used effectively to improve operations, security and policy enforcement?
+
+---
+
+## Data Audit Policy
+
+**Audit policy**
+
+Auditing is about being able to enforce traceability and non repudiation when it comes to actions taken within environments.
+
+- Audit periods
+  - the amount of time the audit will go through
+- Audit scope
+  - what is being audited, usually entails hardware, data, people etc.
+- Audit responsibilities
+  - internal
+  - external
+    - easier to maintain independence with external auditors so they are less objective about the evaluation and quality of evidence
+  - regulations
+  - chain of custody
+- Audit processes & procedures
+  - visibility and quality risks in the cloud, more difficult in the cloud based environments
+- Monitoring, maintenance, and enforcement
+
+**Quiz Question**
+
+A SaaS company has started to use a new cloud service provider for storage. What is the primary aspect of the audit that this would this affect?
+
+- Audit period
+- Audit responsibilities
+- Audit scope, Correct
+
+---
+
+## Data Privacy
+
+**Use cases and reasons for data privacy controls**
+
+- Personally identifiable information (PII)
+  - Sensitive PII
+- Data collection
+  - Purpose
+  - Use limitations
+  - Openness
+- Accountability
+  - organizations must be accountable for anything that may disrupt the privacy of individual customers or employees, notification rules with strict criteria
+
+PII includes: Name, email, home address, phone
+
+Sensitive PII includes:
+
+If Stand-Alone
+
+- Social Security Number
+- Driver's license or stat ID #
+- Passport number
+- Alien Registration Number
+- Financial account number
+- Biometric identifiers
+
+If Paired With Another Identifier:
+
+- Citizenship or immigration status
+- Medical information
+- Ethnic or religious affiliation
+- Sexual orientation
+- Account passwords
+- Last 4 digits of SSN
+- Date of birth
+- Criminal history
+- Mother's maiden name
+
+---
+
+**Quiz Question**
+
+Which of the following is not PII?
+
+- Mother's maiden name, Correct
+- Home address
+- email address
+
+---
+
+## Privacy Safeguards
+
+**Data privacy considerations and safeguards**
+
+- Minimize personally identifiable information (PII)
+  - Collection
+  - Use
+  - Retention
+- Privacy impact assessment
+- Safeguards
+  - De-identification
+    - changing records in a way that PII is removed
+  - Generalization
+    - making data less precise, can be implemented in a role base level
+  - Suppression
+    - deleting entire records so PII is gone
+  - Noise
+    - add random data to strings of information that could contain PII
+  - Swapping
+    - exchanging certain data or one field of a record with another field
+  - Replacement
+    - replacing data with average values or remove data when not necessary
+
+**Module reflection**
+
+- What PII does your organization collect?
+
+- What privacy safeguards does your organization use, or should be using, to protect privacy?
+
+---
