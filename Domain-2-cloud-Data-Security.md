@@ -5,8 +5,12 @@
 - Data classification
 - Data lifecycle
   - stored, processed, created, shared etc.
-- Cloud data storage
+- States of data
+  - in transit, in use, in storage
 - Cloud data security strategies
+  - encryption, hardening, obfuscation
+- Auditing
+- Privacy
 
 **Quiz Question**
 
@@ -576,3 +580,197 @@ Which of the following is not PII?
 - What privacy safeguards does your organization use, or should be using, to protect privacy?
 
 ---
+
+## Data obfuscation
+
+Individuals want to see data but not see it completely if they don't need to
+
+**Data obfuscation use cases**
+
+- Least privilege
+- Secure remote access
+- Testing
+- Regulations
+
+**Data obfuscation methods**
+
+- Randomization
+  - randomly replace information
+- Masking
+  - e.g. credit card covered with symbols
+- Hashing
+- Tokenization
+- Pseudonymization
+  - data may relate to an individual but certain aspects are obscured (e.g. face of ID)
+
+**Module reflection**
+
+- How are obfuscation methods used in your organization?
+
+- If you organization is regulated, what obfuscation techniques are recommended or required?
+
+---
+
+## Data masking
+
+- Static data masking (SDM)
+  - Permanent replacement
+    - replace sensitive Data Field(s) with Dummy Data
+  - Primarily used in testing
+  - Analytics
+- Dynamic data masking (DDM)
+  - Protects data in transit
+  - Role-based
+
+**Quiz Question**
+
+A developer is testing an application update before it is promoted to production. The developer wants to use masked production data for testing purposes but wants to maintain users privacy. What would be the most appropriate data masking method?
+
+- Static data masking, Correct
+- Dynamic data masking
+- Masking is not required
+
+Permanently changing the data
+
+---
+
+## Tokenization
+
+The substitution of some type of sensitive data for a digital string of numbers
+
+- Substitution
+- Tied to real information
+- Security
+- Regulatory uses
+
+**Quiz Question**
+
+The tokenization system is hosted on the same network segment as the data it represents. If you were a security consultant which of the following would you be least likely to recommend?
+
+- Move the tokenization system to an isolated network segment
+- Contract with a security service provider to handle tokenization
+- Ensure that logical access reviews and strong passwords are used on all accounts with access to this part of the network, Correct
+
+The tokenization system and where is currently located pose a real threat
+
+---
+
+## Information Rights Management (IRM)
+
+Applying access control rights to assets internally and externally and how you enforce that
+
+IRM is used interchangeably with Digital Rights Management (DRM), Data Rights Management, Enterprise Data Management
+
+- IRM, DRM, DRM, E-DRM
+- Enterprise IRM
+  - within organization, e.g. financial information does not get disclosed to anybody who doesn't need to see it
+- Customer DRM
+  - Any intellectual property is protected and be aware of any violations
+
+**Module reflection**
+
+- What information artifacts at your organization fall under enterprise IRM?
+
+- What information artifacts at your organization fall under customer IRM?
+
+---
+
+## Information Rights Implementation
+
+- Requirements
+  - Labelling
+  - Metadata
+- IRM methods
+  - Reference checks (rudimentary & online)
+  - Agent checks
+    - software associated with the protected that checks that individuals have access rights
+  - Support based
+    - the person has to authenticate through the support e.g. to receive updates
+- Functional requirements
+  - Persistence
+    - enforce IRM wherever data goes
+  - Policy control
+    - enforce policy over the protections
+  - Expiration
+  - Monitoring, restrictions, and revocation
+
+**Quiz Question**
+
+- What is the most important requirement for effective IRM?
+
+- Persistence
+- Data labelling, Correct
+- Revocation
+
+---
+
+## Information rights challenges
+
+**IRM challenges in cloud environments**
+
+- Replication
+  - in cloud, duplication happens all the time
+- API's decrease IRM performance
+- Agent conflicts
+- Different jurisdictions
+- Identify and access management (IAM) v. Information rights management(IRM)
+
+**Quiz Question**
+
+Which aspect of the cloud is impacted by IRM replication restrictions?
+
+- Scalability, Correct
+- Availability
+- Confidentiality
+
+---
+
+## Intellectual Property (US)
+
+- Copyright
+  - tangible expression of an idea, the physical expression (e.g. the book itself not the ideas within it)
+- Trademarks
+  - word, slogan or graphic preventing brands from being damaged by context they don't approve
+- Patents
+  - reflection of novel inventions, materials or even plant life with a traded office, it provides exclusive rights to the production sale importation of that patented item
+- Trade Secrets
+  - formula, special blend or methods that are really inherent to the companies success, must be kept secret
+
+**Quiz Question**
+
+The intellectual property protection can theoretically be maintained forever for which of the following?
+
+- A novel software algorithm
+- A slogan, Correct
+- A cyber security course
+
+---
+
+## Data Egress
+
+Monitoring when data is leaving your cloud system (in another application or in the Internet), last line of defense.
+
+**Egress monitoring (DLP)**
+
+Data loss, look prevention, and protection (DLP) benefits:
+
+- Additional security
+- Policy enforcement
+- Monitoring
+- Compliance
+
+**Module reflection**
+
+- How is egress monitoring done in your organization?
+
+- What kind of information would you want to monitor and where is it located?
+
+---
+
+## Domain 2 Summary
+
+- What data classification scheme does your organization use?
+
+- How is data label, protected, and monitored within your organization?
+
+- What does the data lifecycle look like at your organization?
