@@ -432,3 +432,152 @@ controls against cloud threats that result from lack of direct control
 - Reconsider the impact of legal, compliance, and policy controls in the cloud
 
 ---
+
+## Shared responsibility for cloud platform oversight
+
+**Customer and provider coordination**
+
+key areas:
+
+- Testing
+- Incident investigation and response
+- Data loss prevention (DLP)
+
+**Quiz Question**
+
+Why should too much access to cloud provider data, logs, or environment be concerning to a cloud customer?
+
+- The amount of data could overwhelm the customer's system
+- The customer may not be able to effectively test because of difficulty prioritizing data elements
+- If the provider allows generous access to one customer, it may be doing the same with other customers and making the platform less secure, Correct
+
+---
+
+## Cloud-based business continuity and disaster recovery
+
+**Business Continuity vs. Disaster Recovery**
+
+Disaster recovery has a more technical nuance, it is the recovery of the technical systems, which may be a prerequisite for business continuity
+
+Business continuity is all encompassing, focusing on all the enterprise risk management aspects, people, restoring the business
+
+key factors:
+
+- Human safety is the first priority, in both
+  - food, water, rations
+- Plan
+  - comes from business impact, in design define which are the critical aspects which need to be restored first, restored in priority
+- Communication equipment
+  - alternate form of communication, walkie talkie
+- Network artifacts
+- Software copies
+  - backups for critical systems
+- Documentation
+
+**Quiz Question**
+
+What is second priority in business continuity and disaster recovery?
+
+- System protection, Correct
+- Human safety
+- Getting outside help
+
+---
+
+## Disaster declaration
+
+creating specific criteria for either operational metrics or availability metrics that are used to declare disasters can help expedite the process and create clarity about when a disaster recovery scenario needs to be declared and implemented.
+
+**Disaster recovery**
+
+Disaster recovery priorities:
+
+- Critical asset inventory
+- Event declaration criteria
+- Disaster recovery roles
+  - who is responsible of declaring and coordinating
+
+**Module reflection**
+
+- How is the disaster recovery process initiated in your organization?
+
+- How familiar are you with the disaster recovery process?
+
+- What business continuity situations has your organization considered?
+
+---
+
+## Disaster recovery criteria
+
+Disaster recovery metrics:
+
+- Maximum allowable downtime (MAD)
+  - the amount of time, interruption of service, that basically ends your business
+- Recovery time objective (RTO)
+  - capabilities of critical functions have to be up and established
+- Recovery point objective (RPO)
+  - goal of limiting the loss of data
+  - the time measuring the loss of data
+  - the amount of data the organization can lose without compromising the business operations
+- Annual loss expectancy (ALE)
+  - combination of 2 metrics
+  - measurers the amount of time a organization is expecting to lose on annual basis, because of certain a disaster recovery scenario or risk
+  - annual rate of occurrence (likelihood in a year) & single loss expectancy (what's the cost)
+  - probability of a catastrofic event happening in a given year
+
+**Quiz Question**
+
+Which metric reflects the organization's goal for limiting data lost during disaster recovery?
+
+- Maximum allowable downtime (MAD)
+- Recovery point objective (RPO), Correct
+- Recovery time objective (RTO)
+
+---
+
+## Disaster recovery testing
+
+**Testing method in order of intensity**:
+
+- Tabletop test
+  - procedures and artifacts used for Disaster Recovery, mock drill
+- Dry run
+  - more intensive, using a call tree to contact all the people that need to notified
+  - impacts productivity
+  - check if work in practice
+- Full test
+  - most intense
+  - entire organization
+  - failover in another geographic region
+  - are backups completed properly
+
+**Quiz Question**
+
+Which of the following is the most useful for detecting shortcoming in disaster recovery plans?
+
+- Tabletop testing
+- Dry run
+- Full test, Correct
+
+---
+
+## Domain 3 Summary
+
+**Cloud platform and infrastructure security**
+
+- Cloud infrastructure
+- Secure cloud data center
+- Risks to cloud infrastructure
+- Counter-measures
+- Business continuity
+- Disaster recovery
+
+**Module reflection**
+
+- What cloud infrastructure are you responsible for protecting?
+
+- How familiar are you with your organization's business continuity process?
+
+- What is your disaster recovery process?
+
+---
