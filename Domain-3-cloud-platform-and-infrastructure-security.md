@@ -269,3 +269,166 @@ How much unscheduled downtime is allowed by the five nines availability standard
 - 6 minutes, Correct
 
 ---
+
+## Other redundancy and safety considerations
+
+**Physical environment**
+
+- American Society for Heating, Refrigeration, and Air-conditioning engineers (ASHRAE) standards
+
+  - Temperature(64-80f, 18-27C)
+  - Humidity(relative humidity 60%)
+
+- Fire suppression
+  - A - Ash
+  - B - Boil
+  - C - Current
+  - D - Dilute
+
+**Quiz Question**
+
+A relative humidity of 60% in a data center lowers the risk of all the following except?
+
+- Fire caused by static shock
+- Corrosion
+- Conditions not conductive to human health, Correct
+
+---
+
+## Data center tiers
+
+right amount of availability, redundancy
+
+ensure that maintains power, heating, cooling
+
+**Tiers**
+
+- Tier 1
+  - 28.8 hours of down time
+  - One source of power and cooling
+  - Dedicated infrastructure 99.671% uptime
+- Tier 2
+  - 22.7
+  - Redundant infrastructure 99.741% uptime
+  - for medium size business
+- Tier 3
+  - 1.6hours
+  - Fault-Tolerant 99.982% uptime (3 9s of uptime)
+  - redundant backup power source for at least 72hrs
+  - large companies
+- Tier 4
+  - 25 minutes
+  - Fully Fault-Tolerant 99.995% uptime (4 5s of availability)
+  - 96hrs power source
+  - national business etc
+
+**Quiz Question**
+
+You are a cloud consultant helping a business determine the appropriate data center tier for their needs. This is a small business but it needs at least 99.5% availability. Which of the following is the minimum appropriate data center tier for these requirements?
+
+- Tier 4
+- Tier 3
+- Tier 1, Correct
+
+---
+
+## Cloud threats I
+
+- External threats
+  - Denial of service or DDos
+  - brute force attacks
+  - MINM attacks (attacker trying to compromise the integrity of information in transit, modify or collect)
+- Insider threats
+  - important in the public cloud, where changing configurations can affect thousands of customers
+  - Escalation of privilege, employees can intentionally increase their privileges to execute services/applications or third parties
+- Stolen/Lost devices
+  - protect the physical devices to access the cloud
+- Malware
+  - list impactful in SaaS
+- Natural disasters
+  - location
+
+**Module reflection**
+
+- Which threats are most applicable to your organization?
+- How would you address these threats?
+
+---
+
+## Cloud threats II
+
+- Physical control
+  - can't evaluate the security of the assets and data
+- Audit
+  - can't really audit all the controls, some trust needed in third party audit reports that are used to evaluate if the provider is honoring their obligations
+- Policy control
+- Regulatory violations
+- Contractual failure
+  - Vendor lock-in, lock-out
+
+**Module reflection**
+
+- Which threats are most applicable to your organization?
+- How would you address these threats?
+- Which of these threats surprised you?
+
+---
+
+## Protecting against cloud threats I
+
+**External threats**
+
+- limiting the attack surface by hardening the infrastructure, the hypervisor and any VMs, check configuration baseline that are up to date at startup
+- effective monitoring on the sensitive data
+- train employees for suspicious activity, and define incident report process that drilled frequently
+
+**Insider threats**
+
+- before individual hired and after, extensive background check especially if they have access to sensitive information and test their skills
+- well trained in the particular cloud environment, skills kept up to date, misconfigurations can result in the accidental disclosure of data or open vulnerabilities
+- jobs are rotated, so one individual doesn't have complete control over a particular area
+- employee data masking, data should be available to people based on their need to know
+
+**Stolen/Lost devices**
+
+- encrypt any endpoints - laptops or workstations
+- disable or destroy any usb
+- laptops have remote wiping capability
+
+**Malware**
+
+more impact in PaaS and SaaS
+
+- install anti malware agents
+- regular patching (difficult because it should be tested)
+- awareness for phishing campaigns
+- SIEM solution
+
+**Natural disasters**
+
+- redundant sources
+- backups in different regions, unaffected by the same natural disaster
+
+**Module reflection**
+
+- Which controls were unfamiliar to you?
+- Did you hear about any controls that should be implemented at your organization?
+
+---
+
+## Protecting against cloud threats II
+
+controls against cloud threats that result from lack of direct control
+
+- not allowed access locations or audits, review reports, strong contractual language that enforces penalties for the hosting provider
+- hire knowledge people, train employees
+- sensitive data is encrypting
+- obfuscation techniques to prevent accidental disclosure
+- restrict access
+
+**Module reflection**
+
+- Which controls had you not considered?
+- Reconsider the impact of legal, compliance, and policy controls in the cloud
+
+---
