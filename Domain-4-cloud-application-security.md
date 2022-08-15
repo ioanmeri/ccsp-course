@@ -173,3 +173,119 @@ Which of these items is an example of multifactor authentication?
 - A password and authentication code, Correct
 
 ---
+
+## Single sign-on and federated identity management
+
+Problem is that continually having to going through the IAM process to different applications or servers (although very secure) it declines the operation efficiency.
+
+both techniques are used to provide authorization across devices or group of organizations
+
+**Federated identity management vs single sing-on (SSO)**
+
+**Single sign-on**
+
+is used to typically through one authentication server or service to authenticate the user across all the apps or websites
+
+- saves a lot of time
+- increases the security risk, stricter IAM processes needed (MFA)
+
+**Federated identity management**
+
+is taking the single sign-on notion of identity management and pushing it out between multiple organizations
+
+- Identity Provider (IdP)
+  - organization itself acts as the IdP, authenticating user
+- Service Provider (SP)
+  - trust between IdP and SP is what enables multiple organizations to share user access rights amongst them. Due diligence to third party vending is needed that they have adequate monitoring.
+  - getting access to multiple organizations, extends the scope
+
+**Quiz Question**
+
+Trust between which parties makes federated identity management possible?
+
+- Between identity providers
+- Between service providers
+- Between the identity provider and the service provider, Correct
+
+---
+
+## Federation standards
+
+mutual authentication between organizations
+
+- Security assertion markup language (SAML)
+  - based on XML
+  - allows verification, validation, authorization between organizations
+  - if user already signed on organization A, doesn't have to create a unique identity in organization B, SAML creates that level of trust
+- WS-Federation
+- OAuth
+  - for mobile
+  - to grant third party tools limited access to services such as http
+- OpenID Connect
+  - often used for applications and inner website communication
+
+**Quiz Question**
+
+Which of the following federation standards is XML based?
+
+- OAuth
+- SAML, Correct
+- OpenID Connect
+
+---
+
+## Application programming interfaces (APIs)
+
+depends on the needs of the application
+
+**API types**
+
+- Representational state transfer - RESTful
+  - scaling connections between web apps and users
+  - 70% are REST
+  - flexible, not relying on a single programming language
+  - is point to point (end point to db or app over http)
+  - stateless
+  - best for low bandwidth scenarios
+- Simple Object Access Protocol (SOAP)
+  - designed to exchange well structured information
+  - can work on http, smtp, ftp
+  - slower
+  - support stateful operations
+  - async, not one to one
+
+secure properly to avoid data leakage
+
+**Quiz Question**
+
+Which API type is reliant on XML?
+
+- SOAP, Correct
+- RESTful
+- JavaScript
+
+---
+
+## API approval and management
+
+**Approving and managing APIs**
+
+- Risks
+  - data leakage
+  - poor authentication
+  - application failure
+- API testing
+- Supply chain API risks
+  - API gateway
+
+audit third party APIs, set the standards for testing the security
+
+**Quiz Question**
+
+Which organization certifies the security of APIs?
+
+- NIST
+- ISO
+- There isn't one, Correct
+
+---
