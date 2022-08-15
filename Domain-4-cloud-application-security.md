@@ -630,3 +630,114 @@ How long did it take on average to identify a breach in 2016?
 - 239 days
 
 ---
+
+## STRIDE
+
+One of the main ways of doing effective security design and testing for applications is **threat modelling**
+
+Created by Microsoft, helps developers and testers think about the main high level exploits that any threat actor might attempt:
+
+- Spoofing
+  - can a user interact with an application in any way that appears that another user is doing it
+- Tampering
+  - can the user make any unauthorized modifications to the applications
+- Repudiation
+  - is the user able to deny that is the one who took a particular action
+- Information disclosure
+  - can the user discover any sensitive information about the system that is not intended
+- Denial of service
+  - can the user take some action which renders the application unavailable
+- Escalation of privilege
+  - can the user change their own permission
+
+**Quiz Question**
+
+A user appearing to take actions as another user is not an example of this STRIDE concept?
+
+- Tampering, Correct
+- Spoofing
+- Repudiation
+
+Repudiation is the ability to use logging / monitoring to tight individual actions to the identity that took that action
+
+---
+
+## Application security testing approaches I
+
+Passive application security testing: vulnerability scanning (network / application scans), for known vulnerabilities the scan will find them
+
+Active application security testing: penetration test / security assessment, company trying to penetrate your system
+
+**Testing approaches**
+
+for active application security testing, depends on the amount of information the tester has about the environment beforehand
+
+- White box
+  - documentation, network diagrams etc.
+- Grey box
+  - high level information
+- Black box
+  - no knowledge of the system
+
+**Quiz Question**
+
+Which of the following is an example of grey box testing?
+
+- An application tester looks through the code for potential application vulnerabilities
+- Based on documentation, a tester performs security tests on an application in a sandbox, Correct
+- A security tester performs and application penetration test without prior knowledge of the application
+
+Active test can result to availability of the application, disruption of functionality, damage of the code
+
+Establish permission to conduct the test, when it will be done, the duration, the methods and timing constrains
+
+---
+
+## Application security testing approaches II
+
+**Testing approaches**
+
+- Static application security testing (SAST)
+  - programmers look at the code
+  - should not be the developer
+  - white box
+  - identify weak cryptographic functions, injection issues etc.
+- Dynamic application security testing (DAST)
+  - black box
+  - testing inputs and outputs in real time
+  - how redundant application is
+  - identify XSS, buffer overflow, malware analysis, missing patches, issues related to session management
+- Fuzzing
+  - automated approach
+  - putting a lot of invalid, random data to check how it responds
+  - for memory issues and performance
+
+**Quiz Question**
+
+Which of the following is an example of a white box testing technique?
+
+- Fuzzing
+- DAST
+- SAST, Correct
+
+---
+
+## Domain 4 Summary
+
+**Application security**
+
+- Application security threats
+- Secure software development
+- Identity and access management
+- Cloud application technologies
+- Application security testing
+
+**Module reflection**
+
+- What did you learn about the cloud software development life cycle?
+
+- Which web application security risks did you find interesting?
+
+- How could security testing at your organization be improved?
+
+---
