@@ -81,3 +81,93 @@ Which of the following does not have defined legal penalties for failure to comp
 - Regulations
 
 ---
+
+## US Laws and regulations
+
+- GLBA
+  - banking transparency
+- SOX
+  - financial industry
+- Health Insurance Portability and Accountability Act (HIPAA)
+  - PII for health
+- Family and Education Rights and Privacy Act (FERPA)
+  - Student data get permissions from student parents before sharing
+- Digital Millennium Copyright Act (DMCA)
+- Clarifying Lawful Overseas Use of Data (CLOUD Act)
+  - help customers where cloud data exist
+
+**Quiz Question**
+
+Which of the following laws controls the sharing of student data?
+
+- FERPA, Correct
+- HIPAA
+- SOX
+
+---
+
+## Sarbanes-Oxley (SOX)
+
+- Origin
+  - Passed 2002 following Enron and WorldCom scandals
+  - Improved transparency for public companies
+- Importance
+  - Enforced by Securities and Exchange Commission (SEC)
+- Cloud specifics
+  - Data security
+  - Breach reporting requirements
+  - Auditing
+
+**Quiz Question**
+
+All of the following are covered by SOX except?
+
+- Publicly trader companies
+- Private companies, Correct
+- Foreign companies on US exchanges
+
+---
+
+## Graham-Leach-Bliley act (GLBA)
+
+- Origin
+  - Financial Services Modernization Act of 1999
+- Importance
+  - Administered and enforced through Federal Deposit Insurance Corporation(FDIC)
+  - Banks + Insurance companies
+- Cloud specifics
+  - Customer data privacy
+  - Information security officer and plan
+
+**Quiz Question**
+
+All of the following are covered by GLBA except?
+
+- Banks
+- Mortgage brokers
+- Credit card processors
+
+---
+
+## Health Information Portability and Accountability Act (HIPAA)
+
+- Origin
+  - Enacted 1996
+  - HITECH 2009
+- Importance
+  - Set the requirements for protecting "electronic protected health information" (ePHI)
+  - Administrative security
+  - Physical security
+  - Technical security
+- Cloud specifics
+  - ePHI can be stored and processed
+
+**Quiz Question**
+
+ePHI can be processed and stored in the cloud so long as it meets which of the following requirements?
+
+- It is encrypted in transit, process, and at rest
+- Adequate security and privacy protections are in place, Correct
+- ePHI should not be stored in the cloud
+
+---
