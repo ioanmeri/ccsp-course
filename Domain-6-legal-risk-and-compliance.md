@@ -171,3 +171,138 @@ ePHI can be processed and stored in the cloud so long as it meets which of the f
 - ePHI should not be stored in the cloud
 
 ---
+
+## Payment Card Industry Data Security Standard (PCI-DSS)
+
+- Secure Networks
+- Secure Cardholder Data
+- Vulnerability Management
+- Access Control
+- Network monitoring and Testing
+- Information Security
+
+**PCI DSS Compliance Level**
+
+depends on how many transactions per year your company processes:
+
+- Level 1: 6M+ Transactions / Year
+- Level 2: 1-6M Transactions / Year
+- Level 3: 20K-1M Transactions / Year
+- Level 4: <20K Transactions / Year
+
+**Quiz Question**
+
+Which of the following is the hightest PCI-DSS compliance level?
+
+- Level 1, Correct
+- Level 3
+- Level 4
+
+---
+
+## General Data Protection Regulation (GDPR)
+
+- Origin
+  - 2016
+- Importance
+  - Applies to EU members states and EU citizens
+  - Controls vs. processors
+- Cloud specifics
+  - Stricter security requirements
+  - 72 hour breach notification
+  - Breach penalties
+
+**Quiz Question**
+
+Which of the following is the maximum GDPR penalty?
+
+- 4% of global turnover
+- 4% of global income
+- 20 million euros, Correct
+
+---
+
+## GDPR Privacy principles
+
+- Notice
+  - individuals inform about private information the company is gathering or creating about them
+- Choice
+  - individuals can choose whether or not to disclose personal information, a company can't collect individual information if not agreed
+- Purpose
+  - individuals need to be told how the information will be used, and if the data is shared
+- Access
+  - get copy of information
+  - more difficult as information should be segregated to more gradual user level and have the ability to query and organize that information and keep it protected
+- Integrity
+  - individual can correct personal information
+  - allowing the data subject to makes changes and have control over the integrity
+- Security
+- Enforcement
+  - anyone who is collecting or processing data with EU citizens are subjected to enforcement of actions of GDPR EU authorities
+
+**Quiz Question**
+
+Which GDPR privacy principle allows and individual to correct their own information?
+
+- Purpose
+- Access
+- Integrity, Correct
+
+---
+
+## Enterprise risk management
+
+- Risk appetite
+  - how much willing to risk (uncertainty - probability of an outcome)
+  - identified by strategic priorities and goals and the risk they need to take to achieve those
+  - controls that could go wrong
+  - minimum risk they need to take to achieve their goals
+- Risk profile
+  - how dynamic is the industry it's in
+  - how heavily regulated
+  - potential impact
+  - well established (reputation to maintain) or startup (can take more risk, less downsides)
+- Four response to risk
+  - Avoidance
+  - Acceptance
+  - Transference
+  - Mitigation
+- Residual risk
+  - risk that's left over after mitigation are placed to an acceptable level
+  - response to risk should be inline with due diligence
+
+**Module reflection**
+
+- What is your organization's risk appetite?
+- What is your organization's risk profile?
+
+---
+
+## Risk management frameworks
+
+- ISO 31000: 2018
+  - Scope, context, criteria
+  - Risk assessment
+  - Risk identification
+  - Risk analysis
+  - Risk evaluation
+  - Risk treatment
+  - Recording & reporting
+- NIST SP 800-37
+  - Categorize systems
+  - Select controls
+  - Implement controls
+  - Assess controls
+  - Authorize systems
+  - Monitor controls
+- ENISA
+
+**Quiz Question**
+
+Which of the following is an internation risk management framework?
+
+- ISO 31000:2018, Correct
+- NIST SP 800-37
+- ENISA
+
+---
