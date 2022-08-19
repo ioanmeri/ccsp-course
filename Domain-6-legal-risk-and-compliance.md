@@ -381,4 +381,12 @@ Domain 6: Legal, risk, and compliance
 - Risk management
 - Audits and third-party management
 
+**Module reflection**
+
+- How could your companies plans for expansion or use of the cloud be impacted be the laws and regulations we discussed?
+
+- How could your risk management process be improved?
+
+- How many third-parties does your organization rely on to provide your products and or services, and do you have a defined vendor management process?
+
 ---

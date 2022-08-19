@@ -848,9 +848,9 @@ You have to keep in mind: what is the business trying to achieve and what is the
 
 **Module reflection**
 
-### How are business requirements determined in your organization?
+- How are business requirements determined in your organization?
 
-### How does understanding business requirements improve security?
+- How does understanding business requirements improve security?
 
 ---
 
@@ -888,11 +888,11 @@ business impact analysis ensures that security is well set up to properly defend
 
 **Module reflection**
 
-### Does your organization have an asset inventory?
+- Does your organization have an asset inventory?
 
-### What is the most critical asset in your organization ?
+- What is the most critical asset in your organization ?
 
-### How are risks identified, evaluated, and monitored ?
+- How are risks identified, evaluated, and monitored ?
 
 ---
 
@@ -916,9 +916,9 @@ What unique controls apply to you and the business case
 
 **Module reflection**
 
-### How does your organization identify security requirements?
+- How does your organization identify security requirements?
 
-### How could the different security responsibilities we have discussed be used to proactively identify security requirements?
+- How could the different security responsibilities we have discussed be used to proactively identify security requirements?
 
 Different shared responsibilities can help us create a shortcut for identifying the most important security requirements for the organization
 
@@ -928,16 +928,16 @@ Different shared responsibilities can help us create a shortcut for identifying 
 
 **Module reflection**
 
-### What is the cloud computing and its benefits?
+- What is the cloud computing and its benefits?
 
-### What are the three service models?
+- What are the three service models?
 
-### What are the four deployment models?
+- What are the four deployment models?
 
-### What is the shared responsibility model and why is it important?
+- What is the shared responsibility model and why is it important?
 
-### How do you demonstrate the business value of the cloud?
+- How do you demonstrate the business value of the cloud?
 
-### How do you identify and meet your organization's security responsibilities in the cloud?
+- How do you identify and meet your organization's security responsibilities in the cloud?
 
 ---
