@@ -306,3 +306,79 @@ Which of the following is an internation risk management framework?
 - ENISA
 
 ---
+
+## Vendor management
+
+**Vendor management process**
+
+- Procurement
+  - Third-Party Profiles
+- Risk & Due Diligence
+  - Policies & standards
+- Contracting
+  - Operating Procedures
+- Onboarding
+  - Vendor Management Systems
+- Contract & Risk Management
+  - Governance & Oversight
+- Off boarding
+  - People, Skills & Training
+  - how information is removed from the vendor or safely destroyed
+
+---
+
+**Quiz Question**
+
+The vendor risk due diligence process might include of all the following, except?
+
+- Review the vendor's SOC report
+- Send the vendor a questionnaire to assess their controls maturity
+- Add contract language to address risks, Correct
+
+---
+
+## Statement on Standards for Attestation Engagements (SSAE-18)
+
+SSAE-18 is the most recent auditing standard
+
+**Report Types**
+
+- SOC 1 - Type 1 & Type 2
+  - Internal controls over financial reporting
+  - User auditor and user's controler's office
+- SOC 2 - Type 1 & Type 2
+  - Security, availability, processing, integrity, confidentiality or privacy controls
+  - Shared under NDA, by management, regulators and others
+- SOC 3
+  - Security, availability, processing, integrity, confidentiality or privacy controls
+  - Publicly available to anyone
+
+Type 1: If control is in place
+
+Type 2: Effectiveness of control over a period of type (min 6 months)
+
+**Quiz Question**
+
+Which SOC report reflects a vendor security control evaluated over at least a six month period?
+
+- SOC 1 Type 2
+- SOC 2 Type 1
+- SOC 2 Type 2, Correct
+
+SOC 1 focuses on financial reports and type 2 indicates that is over a period of at least 6 months
+
+SOC 2 Type 1 is a point in time report but it does look at the security controls that a vendor has
+
+SOC 2 Type 2 are looking at the security controls over an extended period of time
+
+---
+
+## Summary
+
+Domain 6: Legal, risk, and compliance
+
+- Laws and regulations
+- Risk management
+- Audits and third-party management
+
+---
